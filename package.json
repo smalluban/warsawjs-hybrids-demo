@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "warsawjs-hybrids-demo",
+  "version": "1.0.0",
+  "description": "WarsawJS Lightening Talk Demo",
+  "scripts": {
+    "start": "vite serve ./src",
+    "build": "vite build ./src --outDir ../dist",
+    "locales": "hybrids extract -f ./src ./src/locales/en.json"
+  },
+  "author": "Dominik Lubański <dominik.lubanski@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "hybrids": "^8.1.1"
+  },
+  "devDependencies": {
+    "vite": "^3.1.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "Back": {
+    "message": "Powrót"
+  },
+  "Choose a base currency:": {
+    "message": "Wybierz bazową walutę:"
+  },
+  "Credits to the ${0} and ${1}": {
+    "message": "Podziękowania dla ${0} i ${1}"
+  },
+  "Exchange Rates": {
+    "message": "Kursy walut"
+  },
+  "Latest": {
+    "message": "Najnowsze"
+  },
+  "Loading...": {
+    "message": "Ładowanie..."
+  },
+  "Search": {
+    "message": "Szukaj"
+  }
+}

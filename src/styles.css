@@ -1,0 +1,10 @@
+body {
+  margin-top: 0;
+}
+
+h1, 
+h2, 
+p, 
+blockquote {
+  margin: 0;
+}

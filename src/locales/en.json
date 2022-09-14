@@ -1,0 +1,23 @@
+{
+  "Back": {
+    "message": "Back"
+  },
+  "Choose a base currency:": {
+    "message": "Choose a base currency:"
+  },
+  "Credits to the ${0} and ${1}": {
+    "message": "Credits to the ${0} and ${1}"
+  },
+  "Exchange Rates": {
+    "message": "Exchange Rates"
+  },
+  "Latest": {
+    "message": "Latest"
+  },
+  "Loading...": {
+    "message": "Loading..."
+  },
+  "Search": {
+    "message": "Search"
+  }
+}
