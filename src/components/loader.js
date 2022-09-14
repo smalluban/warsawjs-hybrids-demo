@@ -5,7 +5,7 @@ export default define({
   model: {
     value: undefined,
     observe: (host, value) => {
-      host.ready = store.ready(value);
+      host.ready = !store.pending(value) && !store.error(value);
     },
   },
   ready: false,
