@@ -1,10 +1,11 @@
 const API_URL = "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1";
 
-function handleError(res) {
-  if (!res.ok) throw Error(res.status);
-  return res.json();
-}
+export async function api(url) {
+  const result = await fetch(`${API_URL}${url}`);
 
-export function api(url) {
-  return fetch(`${API_URL}${url}`).then(handleError);
+  if (!result.ok) {
+    throw Error(`${result.status}: ${await result.text()}`);
+  }
+
+  return await result.json();
 }
